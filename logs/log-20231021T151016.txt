@@ -1,0 +1,12 @@
+2023-10-21 15:10:22,290 INFO m.ApplicationManager [ApplicationManager.java:25] navigated to the url: https://ilcarro.web.app/search
+2023-10-21 15:10:22,296 INFO m.TestNGListener [TestNGListener.java:51] start test - onstart - : Gradle test
+2023-10-21 15:10:22,428 INFO t.BaseTest [BaseTest.java:52] stop method: negativePasswordWithoutLetters
+2023-10-21 15:10:22,437 INFO t.BaseTest [BaseTest.java:47] start method: negativePasswordWithoutLetters
+2023-10-21 15:10:32,521 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutLetters
+2023-10-21 15:10:34,563 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutLetters
+2023-10-21 15:10:34,599 INFO t.BaseTest [BaseTest.java:52] stop method: negativePasswordWithoutNumbers
+2023-10-21 15:10:34,599 INFO t.BaseTest [BaseTest.java:47] start method: negativePasswordWithoutNumbers
+2023-10-21 15:10:44,664 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutNumbers
+2023-10-21 15:10:46,179 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutNumbers
+2023-10-21 15:10:46,209 INFO t.BaseTest [BaseTest.java:52] stop method: negativePasswordWithoutSymbol
+2023-10-21 15:10:46,213 INFO t.BaseTest [BaseTest.java:47] start method: negativePasswordWithoutSymbol
