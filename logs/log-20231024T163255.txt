@@ -1,0 +1,40 @@
+2023-10-24 16:32:59,398 INFO m.ApplicationManager [ApplicationManager.java:23] open page: https://ilcarro.web.app/search
+2023-10-24 16:33:01,339 INFO m.TestNGListener [TestNGListener.java:51] start test - onstart - : Gradle test
+2023-10-24 16:33:01,342 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-24 16:33:11,437 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-24 16:33:11,509 INFO t.BaseTest [BaseTest.java:52] stop method: negativeRegistrationWrongEmail
+2023-10-24 16:33:11,521 INFO t.BaseTest [BaseTest.java:47] start method: negativeRegistrationWrongEmail
+2023-10-24 16:33:11,521 INFO m.TestNGListener [TestNGListener.java:16] started test: negativeRegistrationWrongEmail
+2023-10-24 16:33:11,521 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:33:11,569 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:33:11,578 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:33:11,754 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:33:11,755 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='name']
+2023-10-24 16:33:11,783 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='name']
+2023-10-24 16:33:11,783 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:33:11,886 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:33:12,108 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='lastName']
+2023-10-24 16:33:12,144 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='lastName']
+2023-10-24 16:33:12,146 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:33:12,227 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:33:12,442 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='email']
+2023-10-24 16:33:12,479 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='email']
+2023-10-24 16:33:12,479 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:33:12,575 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:33:12,796 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='password']
+2023-10-24 16:33:12,866 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='password']
+2023-10-24 16:33:12,867 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:33:12,979 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:33:13,178 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //label[@for='terms-of-use']
+2023-10-24 16:33:13,207 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //label[@for='terms-of-use']
+2023-10-24 16:33:13,525 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //button[@type='submit']
+2023-10-24 16:33:13,614 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //button[@type='submit']
+2023-10-24 16:33:13,615 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:33:13,716 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:33:13,718 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-24 16:33:13,767 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-24 16:33:13,809 INFO m.WDListener [WDListener.java:173] get text from the element with text: Wrong email format
+2023-10-24 16:33:13,824 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-24 16:33:13,824 INFO m.TestNGListener [TestNGListener.java:22] test success: negativeRegistrationWrongEmail
+2023-10-24 16:33:13,837 INFO m.TestNGListener [TestNGListener.java:57] all code executed: passed tests: [ResultMap map=[[TestResult name=negativeRegistrationWrongEmail status=SUCCESS method=RegistrationTests.negativeRegistrationWrongEmail()[pri:0, instance:tests.RegistrationTests@505fc5a4] output={null}]]]
+2023-10-24 16:33:13,837 INFO m.TestNGListener [TestNGListener.java:58] all code executed: failed tests: [ResultMap map=[]]

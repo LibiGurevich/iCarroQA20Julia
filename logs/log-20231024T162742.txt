@@ -1,0 +1,40 @@
+2023-10-24 16:27:45,963 INFO m.ApplicationManager [ApplicationManager.java:23] open page: https://ilcarro.web.app/search
+2023-10-24 16:27:47,915 INFO m.TestNGListener [TestNGListener.java:51] start test - onstart - : Gradle test
+2023-10-24 16:27:47,917 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-24 16:27:57,973 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-24 16:27:58,049 INFO t.BaseTest [BaseTest.java:52] stop method: positiveRegistration
+2023-10-24 16:27:58,049 INFO t.BaseTest [BaseTest.java:47] start method: positiveRegistration
+2023-10-24 16:27:58,069 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveRegistration
+2023-10-24 16:27:58,069 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:27:58,098 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:27:58,112 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:27:58,277 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:27:58,279 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='name']
+2023-10-24 16:27:58,306 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='name']
+2023-10-24 16:27:58,306 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:27:58,426 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:27:58,619 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='lastName']
+2023-10-24 16:27:58,699 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='lastName']
+2023-10-24 16:27:58,699 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:27:58,816 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:27:58,978 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='email']
+2023-10-24 16:27:59,014 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='email']
+2023-10-24 16:27:59,014 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:27:59,132 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:27:59,419 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='password']
+2023-10-24 16:27:59,451 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='password']
+2023-10-24 16:27:59,453 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:27:59,537 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:27:59,715 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //label[@for='terms-of-use']
+2023-10-24 16:27:59,742 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //label[@for='terms-of-use']
+2023-10-24 16:28:00,098 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //button[@type='submit']
+2023-10-24 16:28:00,159 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //button[@type='submit']
+2023-10-24 16:28:00,159 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:28:00,243 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:28:00,243 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //div[@class='dialog-container']//h1[@class='title']
+2023-10-24 16:28:01,388 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //div[@class='dialog-container']//h1[@class='title']
+2023-10-24 16:28:01,412 INFO m.WDListener [WDListener.java:173] get text from the element with text: Registered
+2023-10-24 16:28:01,426 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-24 16:28:01,426 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveRegistration
+2023-10-24 16:28:01,435 INFO m.TestNGListener [TestNGListener.java:57] all code executed: passed tests: [ResultMap map=[[TestResult name=positiveRegistration status=SUCCESS method=RegistrationTests.positiveRegistration()[pri:0, instance:tests.RegistrationTests@505fc5a4] output={null}]]]
+2023-10-24 16:28:01,435 INFO m.TestNGListener [TestNGListener.java:58] all code executed: failed tests: [ResultMap map=[]]

@@ -1,0 +1,31 @@
+2023-10-24 16:45:02,961 INFO m.ApplicationManager [ApplicationManager.java:23] open page: https://ilcarro.web.app/search
+2023-10-24 16:45:05,022 INFO m.TestNGListener [TestNGListener.java:51] start test - onstart - : Gradle test
+2023-10-24 16:45:05,026 INFO m.WDListener [WDListener.java:40] navigate to: https://ilcarro.web.app/search
+2023-10-24 16:45:05,417 INFO m.WDListener [WDListener.java:46] navigate to: https://ilcarro.web.app/search
+2023-10-24 16:45:05,418 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-24 16:45:15,441 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-24 16:45:15,566 INFO t.BaseTest [BaseTest.java:52] stop method: positiveRegistration
+2023-10-24 16:45:15,566 INFO t.BaseTest [BaseTest.java:47] start method: positiveRegistration
+2023-10-24 16:45:15,566 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveRegistration
+2023-10-24 16:45:15,581 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:45:15,640 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:45:15,644 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:45:15,830 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:45:15,831 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='name']
+2023-10-24 16:45:15,861 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='name']
+2023-10-24 16:45:15,861 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:45:15,991 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:45:16,170 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='lastName']
+2023-10-24 16:45:16,244 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='lastName']
+2023-10-24 16:45:16,244 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:45:16,345 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:45:16,529 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='email']
+2023-10-24 16:45:16,577 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='email']
+2023-10-24 16:45:16,577 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:45:16,696 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:45:16,934 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='password']
+2023-10-24 16:45:17,025 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='password']
+2023-10-24 16:45:17,027 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:45:17,151 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:45:17,382 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //label[@for='terms-of-use']
+2023-10-24 16:45:17,406 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //label[@for='terms-of-use']

@@ -1,0 +1,152 @@
+2023-10-24 16:10:59,108 INFO m.ApplicationManager [ApplicationManager.java:23] open page: https://ilcarro.web.app/search
+2023-10-24 16:11:01,068 INFO m.TestNGListener [TestNGListener.java:51] start test - onstart - : Gradle test
+2023-10-24 16:11:01,074 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-24 16:11:11,179 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-24 16:11:11,261 INFO t.BaseTest [BaseTest.java:52] stop method: negativeRegistrationBlankEmail
+2023-10-24 16:11:11,271 INFO t.BaseTest [BaseTest.java:47] start method: negativeRegistrationBlankEmail
+2023-10-24 16:11:11,271 INFO m.TestNGListener [TestNGListener.java:16] started test: negativeRegistrationBlankEmail
+2023-10-24 16:11:11,277 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:11:11,304 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:11:11,317 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:11,550 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:11,550 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='name']
+2023-10-24 16:11:11,589 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='name']
+2023-10-24 16:11:11,589 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:11,745 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:11,908 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='lastName']
+2023-10-24 16:11:11,960 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='lastName']
+2023-10-24 16:11:11,960 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:12,036 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:12,224 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='email']
+2023-10-24 16:11:12,261 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='email']
+2023-10-24 16:11:12,264 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:12,357 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:12,549 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='password']
+2023-10-24 16:11:12,588 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='password']
+2023-10-24 16:11:12,589 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:12,682 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:12,876 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //button[@type='submit']
+2023-10-24 16:11:12,918 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //button[@type='submit']
+2023-10-24 16:11:12,918 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:13,023 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:13,023 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-24 16:11:13,066 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-24 16:11:13,098 INFO m.WDListener [WDListener.java:173] get text from the element with text: Email is required
+2023-10-24 16:11:13,117 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-24 16:11:13,120 INFO m.TestNGListener [TestNGListener.java:22] test success: negativeRegistrationBlankEmail
+2023-10-24 16:11:13,131 INFO t.BaseTest [BaseTest.java:52] stop method: negativeRegistrationWrongEmail
+2023-10-24 16:11:13,131 INFO t.BaseTest [BaseTest.java:47] start method: negativeRegistrationWrongEmail
+2023-10-24 16:11:13,136 INFO m.TestNGListener [TestNGListener.java:16] started test: negativeRegistrationWrongEmail
+2023-10-24 16:11:13,136 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:11:13,169 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:11:13,170 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:13,256 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:13,257 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='name']
+2023-10-24 16:11:13,293 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='name']
+2023-10-24 16:11:13,294 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:13,412 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:13,659 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='lastName']
+2023-10-24 16:11:13,701 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='lastName']
+2023-10-24 16:11:13,704 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:13,774 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:13,954 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='email']
+2023-10-24 16:11:13,977 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='email']
+2023-10-24 16:11:13,977 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:14,065 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:14,310 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='password']
+2023-10-24 16:11:14,334 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='password']
+2023-10-24 16:11:14,334 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:14,444 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:14,692 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //button[@type='submit']
+2023-10-24 16:11:14,719 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //button[@type='submit']
+2023-10-24 16:11:14,719 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:14,846 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:14,846 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-24 16:11:14,873 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-24 16:11:14,884 INFO m.WDListener [WDListener.java:173] get text from the element with text: Wrong email format
+2023-10-24 16:11:14,908 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-24 16:11:14,908 INFO m.TestNGListener [TestNGListener.java:22] test success: negativeRegistrationWrongEmail
+2023-10-24 16:11:14,911 INFO t.BaseTest [BaseTest.java:52] stop method: negativeRegistrationWrongPassword
+2023-10-24 16:11:14,914 INFO t.BaseTest [BaseTest.java:47] start method: negativeRegistrationWrongPassword
+2023-10-24 16:11:14,914 INFO m.TestNGListener [TestNGListener.java:16] started test: negativeRegistrationWrongPassword
+2023-10-24 16:11:14,914 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:11:14,938 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:11:14,938 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:15,034 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:15,034 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='name']
+2023-10-24 16:11:15,070 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='name']
+2023-10-24 16:11:15,072 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:15,312 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:15,606 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='lastName']
+2023-10-24 16:11:15,634 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='lastName']
+2023-10-24 16:11:15,634 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:15,742 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:15,966 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='email']
+2023-10-24 16:11:15,999 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='email']
+2023-10-24 16:11:15,999 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:16,105 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:16,562 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='password']
+2023-10-24 16:11:16,605 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='password']
+2023-10-24 16:11:16,605 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:16,755 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:17,115 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //button[@type='submit']
+2023-10-24 16:11:17,135 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //button[@type='submit']
+2023-10-24 16:11:17,135 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:17,222 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:17,225 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@autocomplete='new-password']/..//div//div
+2023-10-24 16:11:17,257 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@autocomplete='new-password']/..//div//div
+2023-10-24 16:11:17,279 INFO m.WDListener [WDListener.java:173] get text from the element with text: Password must contain 1 uppercase letter, 1 lowercase letter, 1 number and one special symbol of [@$#^&*!]
+2023-10-24 16:11:17,407 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-24 16:11:17,409 INFO m.TestNGListener [TestNGListener.java:22] test success: negativeRegistrationWrongPassword
+2023-10-24 16:11:17,411 INFO t.BaseTest [BaseTest.java:52] stop method: positiveRegistration
+2023-10-24 16:11:17,413 INFO t.BaseTest [BaseTest.java:47] start method: positiveRegistration
+2023-10-24 16:11:17,414 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveRegistration
+2023-10-24 16:11:17,414 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:11:17,491 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-24 16:11:17,491 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:17,702 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:17,702 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='name']
+2023-10-24 16:11:17,722 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='name']
+2023-10-24 16:11:17,722 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:17,797 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:18,006 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='lastName']
+2023-10-24 16:11:18,033 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='lastName']
+2023-10-24 16:11:18,033 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:18,138 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:18,317 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='email']
+2023-10-24 16:11:18,338 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='email']
+2023-10-24 16:11:18,340 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:18,406 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:18,603 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //input[@id='password']
+2023-10-24 16:11:18,631 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //input[@id='password']
+2023-10-24 16:11:18,631 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:18,701 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:18,878 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //button[@type='submit']
+2023-10-24 16:11:18,900 INFO m.WDListener [WDListener.java:89] element found success: By.xpath: //button[@type='submit']
+2023-10-24 16:11:18,900 INFO m.WDListener [WDListener.java:95] start method click
+2023-10-24 16:11:18,964 INFO m.WDListener [WDListener.java:101] done method click
+2023-10-24 16:11:18,964 INFO m.WDListener [WDListener.java:83] before find element: By.xpath: //div[@class='dialog-container']//h1[@class='title']
+2023-10-24 16:11:29,035 INFO m.WDListener [WDListener.java:139] start on exception in WDListener class
+2023-10-24 16:11:29,042 INFO m.WDListener [WDListener.java:141] created name for the screenshot: src/test/java/screenshots/screenshot-2023-10-24_16_11_29.png
+2023-10-24 16:11:29,043 ERROR m.WDListener [WDListener.java:142] no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']//h1[@class='title']"}
+  (Session info: chrome=118.0.5993.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-259RB9PK', ip: '192.168.1.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.89, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\lzhol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59346}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49f9b1d1c10ec3f8651b3329d74a810c
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h1[@class='title']}
+2023-10-24 16:11:29,043 ERROR m.WDListener [WDListener.java:143] [sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62), sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.lang.reflect.Constructor.newInstance(Constructor.java:423), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428), org.openqa.selenium.By$ByXPath.findElement(By.java:353), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:498), org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105), com.sun.proxy.$Proxy14.findElement(Unknown Source), org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194), manager.BaseHelper.findElementBase(BaseHelper.java:25), manager.BaseHelper.getTextBase(BaseHelper.java:38), manager.BaseHelper.isTextEqual(BaseHelper.java:55), manager.UserHelper.validatePopUpMessageSuccessAfterRegistration(UserHelper.java:81), tests.RegistrationTests.positiveRegistration(RegistrationTests.java:37), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:498), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.util.ArrayList.forEach(ArrayList.java:1259), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141), org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90), org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:498), org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36), org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24), org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33), org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94), com.sun.proxy.$Proxy2.stop(Unknown Source), org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193), org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129), org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100), org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60), org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56), org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133), org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71), worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69), worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)]
+2023-10-24 16:11:29,043 ERROR m.WDListener [WDListener.java:144] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']//h1[@class='title']"}
+  (Session info: chrome=118.0.5993.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-259RB9PK', ip: '192.168.1.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.89, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\lzhol\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59346}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49f9b1d1c10ec3f8651b3329d74a810c
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h1[@class='title']}
+2023-10-24 16:11:30,092 INFO m.TestNGListener [TestNGListener.java:28] test failure: positiveRegistration
+2023-10-24 16:11:30,095 INFO m.TestNGListener [TestNGListener.java:57] all code executed: passed tests: [ResultMap map=[[TestResult name=negativeRegistrationWrongEmail status=SUCCESS method=RegistrationTests.negativeRegistrationWrongEmail()[pri:0, instance:tests.RegistrationTests@505fc5a4] output={null}], [TestResult name=negativeRegistrationBlankEmail status=SUCCESS method=RegistrationTests.negativeRegistrationBlankEmail()[pri:0, instance:tests.RegistrationTests@505fc5a4] output={null}], [TestResult name=negativeRegistrationWrongPassword status=SUCCESS method=RegistrationTests.negativeRegistrationWrongPassword()[pri:0, instance:tests.RegistrationTests@505fc5a4] output={null}]]]
+2023-10-24 16:11:30,095 INFO m.TestNGListener [TestNGListener.java:58] all code executed: failed tests: [ResultMap map=[[TestResult name=positiveRegistration status=FAILURE method=RegistrationTests.positiveRegistration()[pri:0, instance:tests.RegistrationTests@505fc5a4] output={null}]]]
