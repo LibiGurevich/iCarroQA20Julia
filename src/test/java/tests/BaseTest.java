@@ -37,9 +37,9 @@ public class BaseTest {
     }
 
     public void logoutIflogin() {
-            if(app.getUserHelper().btnLogoutExist()) {
-                app.getUserHelper().logout();
-            }
+        if(app.getUserHelper().btnLogoutExist()) {
+            app.getUserHelper().logout();
+        }
     }
 
     @BeforeMethod

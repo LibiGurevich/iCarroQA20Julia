@@ -41,7 +41,6 @@ public class UserHelper extends BaseHelper{
         clickBase(btnYallaLoginForm);
     }
 
-
     public void login(UserDTOWith userDTO) {
         clickBase(btnLoginNavigatorMenu);
         typeTextBase(inputEmailLoginForm, userDTO.getEmail());
@@ -71,7 +70,7 @@ public class UserHelper extends BaseHelper{
         typeTextBase(inputEmailReg, user.getEmail());
         typeTextBase(inputPasswordReg, user.getPassword());
         //clickBase(checkBoxReg);
-      //  clickByXY(checkBoxReg, 5,15);
+        clickByXY(checkBoxReg, 5,15);
         //jsClickBase(btnRegNewUser);
         clickBase(btnUallaReg);
     }
@@ -91,9 +90,9 @@ public class UserHelper extends BaseHelper{
 
     public void clickOkPopUpSuccessLogin() {
         // clickBase(btnOkPopUp);
-       // typeTextBase(textPopUpSuccessRegH1, String.valueOf(Keys.ESCAPE));
-         jsClickBase(btnOkPopUpStr);
-       // clickByXY(btnOkPopUp, 0.5, 2);
+        // typeTextBase(textPopUpSuccessRegH1, String.valueOf(Keys.ESCAPE));
+        jsClickBase(btnOkPopUpStr);
+        // clickByXY(btnOkPopUp, 0.5, 2);
         //      clickBase(textPopUpSuccessRegH1);
 //        try {
 //            Thread.sleep(1000);

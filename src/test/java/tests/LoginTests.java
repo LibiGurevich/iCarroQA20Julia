@@ -10,7 +10,7 @@ public class LoginTests extends BaseTest{
 
     @BeforeMethod
     public void preconditionsLogin() {
-       // app.getUserHelper().refreshPage();
+        // app.getUserHelper().refreshPage();
         //  app.navigateToMainPage();
         logoutIflogin();
 
